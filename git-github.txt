@@ -1,0 +1,45 @@
+Git: Software gerenciador de sessões 
+GitHub: Hospeda os projetos versionados pelo git.
+
+Passos: (1° Parte)
+1° Crie a pasta do projeto 
+2° Abra a pasta no VS Code
+3° clica (Ctrl + “) para abrir o terminal
+4° Após abrir o terminal, para começar o versionamento, deve-se escrever “git init”
+5° Configurações de usuário: Nome e e-mail
+6° Utiliza-se o “git config –global user.name LaraGuedes ”
+7° Utiliza-se “git config –global user.email lara.guedes569@gmail.com”
+8° Após crie o arquivo do projeto 
+9° Para sinalizar que irá fazer o versionamento do arquivo, utilizando o “git add .”
+10° Após da enter, “git commit -m ‘Criação do arquivo.html’”
+11° Utiliza-se “git log” para ver
+
+(2° Parte)
+12° Cria o repositório no GitHub com o README
+13° Em code, copie o endereço do repositório para clonar o repositório
+14° Abre o terminal no VS Code para acessar a área de trabalho, basta copiar o caminho dela (barra em cima)
+15° Coloca “CD ‘nome_Pasta’”
+16° CD ‘Área de trabalho’ /
+17° Para clonar basta colocar “git clone link Do Repositório”
+18° Refaça as configurações de usuário ou coloca só o –global
+19° Faça,  “git commit -m ‘Criação do arquivo.html’”
+20° git Push Para enviar o arquivo local para o gitHube
+
+
+Linha do tempo (3° Parte)
+1° Crie a pasta do projeto 
+2° Abra a pasta no VS Code
+3° clica (Ctrl + “) para abrir o terminal
+4° Após abrir o terminal, para começar o versionamento, deve-se escrever “git init”
+5° git branch
+6° Configurações de usuário: Nome e e-mail
+7° Utiliza-se o “git config –global user.name LaraGuedes ”
+8° Utiliza-se “git config –global user.email lara.guedes569@gmail.com”
+9° Após crie o arquivo do projeto
+10° Para sinalizar que irá fazer o versionamento do arquivo, utilizando o “git add .”
+11° Após da enter, “git commit -m ‘Criação do arquivo.html’”
+12° Utiliza-se “git log” para ver
+13° Para criar uma nova branch fora da principal que será a master
+14° git checkout -b ‘branch2’
+15° Basta fazer o commit na nova branch
+16 para mesclar as branch: git merge branch2
